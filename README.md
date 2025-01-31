@@ -6,3 +6,5 @@ Lets assume a client drops many files into an S3 Bucket we own and they want to 
 
 Solution
 In this project we use Python and Lambda Functions to automate tasks in AWS. Specifically, we will create a Lambda Function that triggers when a file is added to an S3 bucket and moves it to a folder with the format YYYYMMDD/filename, based on the file's creation date.
+
+Medium Article : https://medium.com/@smaddy799/python-with-aws-lambda-project-0642493b7c23
